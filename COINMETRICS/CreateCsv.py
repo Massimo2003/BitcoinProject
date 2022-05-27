@@ -6,4 +6,5 @@ def get_df(csv):
 def getpartialcsv(csv,date1,date2):
     df=get_df(csv)
     newdf=df.loc[date1:date2,'PriceUSD']
-    return newdf.to_csv('PartialCSV.csv')
+    newcsv=newdf.to_csv('PartialCSV.csv')
+    return newcsv
