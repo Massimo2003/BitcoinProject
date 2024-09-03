@@ -1,2 +1,2 @@
 # BitcoinProject
-Predicting Financial Market Regime Changes
+Predicting Financial Market Regime Changes with AI
